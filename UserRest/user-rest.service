@@ -1,0 +1,17 @@
+[Unit]
+Description=Node.js User lookup Server for weblogin demos
+
+[Service]
+ExecStart="/home/www/html/UserRest/run"
+# Required on some systems
+WorkingDirectory=/home/www/html/UserRest
+Restart=always
+# Restart service after 10 seconds if node service crashes
+RestartSec=10
+# Output to syslog
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=user-rest
+
+[Install]
+WantedBy=multi-user.target
