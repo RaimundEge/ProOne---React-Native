@@ -1,0 +1,5 @@
+ProOne - React - Native
+
+Proof of concept implementation for user login and state respresentation.
+Fontend single page application using ReactNative.
+Backend Node.js Express REST server to access user data in Mongo database.
