@@ -10,7 +10,7 @@
   "dependencies": {
     "base-64": "^0.1.0",
     "braces": "^3.0.2",
-    "expo": "^33.0.0",
+    "expo": "^46.0.16",
     "expo-constants": "^5.0.1",
     "npm": "^6.9.0",
     "react": "16.8.3",
